@@ -18,5 +18,11 @@ pipeline {
       }
     }
 
+    stage('fff') {
+      steps {
+        pwd()
+      }
+    }
+
   }
 }
